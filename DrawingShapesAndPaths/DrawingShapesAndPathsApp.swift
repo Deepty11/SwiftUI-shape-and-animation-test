@@ -2,7 +2,7 @@
 //  DrawingShapesAndPathsApp.swift
 //  DrawingShapesAndPaths
 //
-//  Created by rehnuma.deepty on 11/10/22.
+//  Created by Rehnuma Reza on 11/10/22.
 //
 
 import SwiftUI

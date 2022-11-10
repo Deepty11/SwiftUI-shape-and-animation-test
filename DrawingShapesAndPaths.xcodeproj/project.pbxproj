@@ -14,6 +14,8 @@
 		BFA89FFB291CA44000C904CE /* DrawingShapesAndPathsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA89FFA291CA44000C904CE /* DrawingShapesAndPathsTests.swift */; };
 		BFA8A005291CA44000C904CE /* DrawingShapesAndPathsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA8A004291CA44000C904CE /* DrawingShapesAndPathsUITests.swift */; };
 		BFA8A007291CA44000C904CE /* DrawingShapesAndPathsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA8A006291CA44000C904CE /* DrawingShapesAndPathsUITestsLaunchTests.swift */; };
+		BFA8A014291CA4B100C904CE /* HexagoneParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA8A013291CA4B100C904CE /* HexagoneParameters.swift */; };
+		BFA8A018291CA89D00C904CE /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA8A017291CA89D00C904CE /* BadgeBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		BFA8A000291CA44000C904CE /* DrawingShapesAndPathsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawingShapesAndPathsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA8A004291CA44000C904CE /* DrawingShapesAndPathsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingShapesAndPathsUITests.swift; sourceTree = "<group>"; };
 		BFA8A006291CA44000C904CE /* DrawingShapesAndPathsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingShapesAndPathsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BFA8A013291CA4B100C904CE /* HexagoneParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagoneParameters.swift; sourceTree = "<group>"; };
+		BFA8A017291CA89D00C904CE /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				BFA89FE9291CA43E00C904CE /* DrawingShapesAndPathsApp.swift */,
 				BFA89FEB291CA43E00C904CE /* ContentView.swift */,
+				BFA8A013291CA4B100C904CE /* HexagoneParameters.swift */,
+				BFA8A017291CA89D00C904CE /* BadgeBackground.swift */,
 				BFA89FED291CA44000C904CE /* Assets.xcassets */,
 				BFA89FEF291CA44000C904CE /* Preview Content */,
 			);
@@ -257,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFA8A014291CA4B100C904CE /* HexagoneParameters.swift in Sources */,
 				BFA89FEC291CA43E00C904CE /* ContentView.swift in Sources */,
 				BFA89FEA291CA43E00C904CE /* DrawingShapesAndPathsApp.swift in Sources */,
+				BFA8A018291CA89D00C904CE /* BadgeBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
