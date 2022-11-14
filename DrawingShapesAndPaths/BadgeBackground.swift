@@ -42,12 +42,20 @@ struct BadgeBackground: View {
                     
                 }
                 
-                print("\(width), \(height)")
-            }.foregroundColor(.black)
+            }.fill(LinearGradient(gradient: Gradient(colors: [Self.gradientStart, Self.gradientEnd]),
+                                  startPoint: UnitPoint(x: 0.5, y: 0),
+                                  endPoint: UnitPoint(x: 0.5, y: 0.6)))
             
-        }
+        }.aspectRatio(1, contentMode: .fit)
         
     }
+    static let gradientStart = Color(red: 150.0/255,
+                                   green: 122.0/255,
+                                   blue: 233.0/255)
+    static let gradientEnd = Color(red: 80.0/255,
+                                     green: 222.0/255,
+                                     blue: 212.0/255)
+    
 }
 
 struct BadgeBackground_Previews: PreviewProvider {

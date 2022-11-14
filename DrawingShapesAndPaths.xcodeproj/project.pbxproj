@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF5A1C5B2922168900DEFE88 /* NewShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5A1C5A2922168900DEFE88 /* NewShape.swift */; };
+		BF5A1C5D2922209800DEFE88 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5A1C5C2922209800DEFE88 /* Triangle.swift */; };
+		BF5A1C5F292221BF00DEFE88 /* Arch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5A1C5E292221BF00DEFE88 /* Arch.swift */; };
 		BFA89FEA291CA43E00C904CE /* DrawingShapesAndPathsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA89FE9291CA43E00C904CE /* DrawingShapesAndPathsApp.swift */; };
 		BFA89FEC291CA43E00C904CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA89FEB291CA43E00C904CE /* ContentView.swift */; };
 		BFA89FEE291CA44000C904CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFA89FED291CA44000C904CE /* Assets.xcassets */; };
@@ -16,6 +19,7 @@
 		BFA8A007291CA44000C904CE /* DrawingShapesAndPathsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA8A006291CA44000C904CE /* DrawingShapesAndPathsUITestsLaunchTests.swift */; };
 		BFA8A014291CA4B100C904CE /* HexagoneParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA8A013291CA4B100C904CE /* HexagoneParameters.swift */; };
 		BFA8A018291CA89D00C904CE /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA8A017291CA89D00C904CE /* BadgeBackground.swift */; };
+		BFE872D02921EA0800147F58 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE872CF2921EA0800147F58 /* BadgeSymbol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF5A1C5A2922168900DEFE88 /* NewShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewShape.swift; sourceTree = "<group>"; };
+		BF5A1C5C2922209800DEFE88 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		BF5A1C5E292221BF00DEFE88 /* Arch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arch.swift; sourceTree = "<group>"; };
 		BFA89FE6291CA43E00C904CE /* DrawingShapesAndPaths.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawingShapesAndPaths.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFA89FE9291CA43E00C904CE /* DrawingShapesAndPathsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingShapesAndPathsApp.swift; sourceTree = "<group>"; };
 		BFA89FEB291CA43E00C904CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +55,7 @@
 		BFA8A006291CA44000C904CE /* DrawingShapesAndPathsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingShapesAndPathsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BFA8A013291CA4B100C904CE /* HexagoneParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagoneParameters.swift; sourceTree = "<group>"; };
 		BFA8A017291CA89D00C904CE /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		BFE872CF2921EA0800147F58 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,10 @@
 				BFA89FEB291CA43E00C904CE /* ContentView.swift */,
 				BFA8A013291CA4B100C904CE /* HexagoneParameters.swift */,
 				BFA8A017291CA89D00C904CE /* BadgeBackground.swift */,
+				BFE872CF2921EA0800147F58 /* BadgeSymbol.swift */,
+				BF5A1C5A2922168900DEFE88 /* NewShape.swift */,
+				BF5A1C5C2922209800DEFE88 /* Triangle.swift */,
+				BF5A1C5E292221BF00DEFE88 /* Arch.swift */,
 				BFA89FED291CA44000C904CE /* Assets.xcassets */,
 				BFA89FEF291CA44000C904CE /* Preview Content */,
 			);
@@ -263,9 +275,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF5A1C5B2922168900DEFE88 /* NewShape.swift in Sources */,
 				BFA8A014291CA4B100C904CE /* HexagoneParameters.swift in Sources */,
 				BFA89FEC291CA43E00C904CE /* ContentView.swift in Sources */,
+				BF5A1C5F292221BF00DEFE88 /* Arch.swift in Sources */,
 				BFA89FEA291CA43E00C904CE /* DrawingShapesAndPathsApp.swift in Sources */,
+				BFE872D02921EA0800147F58 /* BadgeSymbol.swift in Sources */,
+				BF5A1C5D2922209800DEFE88 /* Triangle.swift in Sources */,
 				BFA8A018291CA89D00C904CE /* BadgeBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
