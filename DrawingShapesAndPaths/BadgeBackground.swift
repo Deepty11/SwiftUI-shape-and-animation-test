@@ -14,14 +14,14 @@ struct BadgeBackground: View {
              its entire containing view */
             Path { path in
                 var width: CGFloat = min(geometryReader.size.width, geometryReader.size.height)
-                var height = width
+                let height = width
                 
                 /* NOTE:- shift the shape to the center using xScale and xOffset */
                 
                 /* xScale = how much width I want the shape to take in the
                  screen */
                 let xScale: CGFloat = 0.832
-                var xOffSet: CGFloat = width * (1 - 0.832) / 2.0
+                let xOffSet: CGFloat = width * (1 - 0.832) / 2.0
                 
                 width *= xScale
                 

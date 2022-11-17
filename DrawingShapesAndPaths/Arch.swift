@@ -16,8 +16,8 @@ struct Arch: Shape {
         let modifiedAngle = Angle.degrees(0)
         var path = Path()
         
-        path.addArc(center: CGPoint(x: rect.midX, y: rect.midY),
-                    radius: rect.maxX/2,
+        path.addArc(center: CGPoint(x: rect.midX, y: rect.minY),
+                    radius: rect.midY - 100,
                     startAngle: startAngle - modifiedAngle ,
                     endAngle: endAngle - modifiedAngle,
                     clockwise: clockWise)
